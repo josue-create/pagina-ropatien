@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>HGS</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kaisei+Opti&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/style.css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="styles3.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-lnavbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html"></a>
+
+        <ul class="nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Inicio</a>
+          </li>
+          <ul class="nav">
+            <ul class="nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="hombre.html">Hombre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="mujer.html">Mujer</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="niños.html">Niños</a>
+              </li>
+            </ul>
+          </ul>
+        </ul>
+      </nav>
+      <div>
+
+        <div class="container-icon">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+        class="icon-cart"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"
+        />
+      </svg>
+      <div class="count-products">
+        <span id="contador-productos">0</span>
+      </div>
+
+      <div class="container-cart-products hidden-cart">
+        <div class="cart-product">
+          <div class="info-cart-product">
+                          <span class="cantidad-producto-carrito"></span>
+                          <p class="titulo-producto-carrito"></p>
+                          <span class="precio-producto-carrito">$</span>
+                      </div>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="icon-close"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
+        </div>
+                  <div class="cart-total">
+                      <h3>Total:</h3>
+                      <span class="total-pagar">$MXN</span>
+                  </div>
+      </div>
+    </div>
+  </header>
+
+
+  <div class="container-items">
+			<div class="item">
+				<figure>
+					<img
+						src="https://cdn.glitch.global/46176b66-ac53-496a-814f-b585725e12d7/tenis%20deportivos%20ni%C3%B1a.jpg?v=1669790991228"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Tenis Contend para niña</h2>
+					<p class="price">$799 MXN</p>
+					<button>Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="https://cdn.glitch.global/46176b66-ac53-496a-814f-b585725e12d7/tenis%20ni%C3%B1a.jpg?v=1669791187146"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Tenis Adidas para niña</h2>
+					<p class="price">$1099 MXN</p>
+					<button>Añadir al carrito</button>
+				</div>
+			</div>
+
+        <script src="index1.js"></script>
+	</body>
+</html>
